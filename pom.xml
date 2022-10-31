@@ -6,7 +6,11 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>1.0.0</version>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>cn.openapis.hy.common</name>
+    <url>https://github.com/HY-ZhengWei/cn.openapis.hy.common</url>
+    <description>cn.openapis.hy.common</description>
 
     <packaging>jar</packaging>
 
@@ -17,15 +21,14 @@
     </properties>
 
     <distributionManagement>
-        <!--  申明打包到Maven公有仓库  -->
         <snapshotRepository>
-            <id>ossrh</id>
+            <id>maven-public</id>
             <name>oss Staging Repository</name>
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
 
         <repository>
-            <id>ossrh</id>
+            <id>maven-public</id>
             <name>oss Staging Repository</name>
             <url>https://s01.oss.sonatype.org/content/repositories/releases/</url>
         </repository>
@@ -33,17 +36,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.8</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -57,6 +49,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
