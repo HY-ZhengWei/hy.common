@@ -51,91 +51,91 @@
 
     <dependencies>
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.base</artifactId>
             <version>1.0.162</version>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.file</artifactId>
             <version>1.2.2</version>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.db</artifactId>
             <version>2.5.9</version>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.tpool</artifactId>
             <version>1.3.1</version>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.net</artifactId>
             <version>3.0.2</version>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.license</artifactId>
             <version>1.1.4</version>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.xjava</artifactId>
             <version>4.1.7</version>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.berkeley</artifactId>
             <version>1.0.4</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.ldap</artifactId>
             <version>1.0.7</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.mail</artifactId>
             <version>2.0.8</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.redis</artifactId>
             <version>1.0.3</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.report</artifactId>
             <version>3.3.0</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.ui</artifactId>
             <version>1.0.2</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
-            <groupId>cn.openapis</groupId>
+            <groupId>org</groupId>
             <artifactId>hy.common.zxing</artifactId>
             <version>3.4.1.a</version>
             <optional>true</optional>
