@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -140,10 +140,17 @@
             <version>3.4.1.a</version>
             <optional>true</optional>
         </dependency>
+        
+        <dependency>
+            <groupId>cn.openapis</groupId>
+            <artifactId>hy.common.solr</artifactId>
+            <version>1.1.4</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <scm>
-        <tag>main</tag>
+        <tag>master</tag>
         <url>git@github.com:HY-ZhengWei/hy.common.git</url>
         <connection>git@github.com:HY-ZhengWei/hy.common.git</connection>
         <developerConnection>git@github.com:HY-ZhengWei/hy.common.git</developerConnection>
