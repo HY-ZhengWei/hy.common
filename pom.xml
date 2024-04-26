@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.0.8</version>
+    <version>3.0.9</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -89,7 +89,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.license</artifactId>
-            <version>1.1.8</version>
+            <version>1.1.9</version>
         </dependency>
 
         <dependency>
@@ -101,7 +101,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.berkeley</artifactId>
-            <version>1.0.6</version>
+            <version>1.0.7</version>
             <optional>true</optional>
         </dependency>
 
@@ -132,7 +132,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.report</artifactId>
-            <version>3.3.7</version>
+            <version>3.3.8</version>
         </dependency>
 
         <dependency>
@@ -145,6 +145,12 @@
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.solr</artifactId>
             <version>1.1.6</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>cn.openapis</groupId>
+            <artifactId>hy.xflow.engine-client</artifactId>
+            <version>1.2.5</version>
         </dependency>
     </dependencies>
 
