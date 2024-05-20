@@ -6,14 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hy.common.berkeley" />
         <module name="hy.common.db" />
         <module name="hy.common.file" />
         <module name="hy.common.license" />
         <module name="hy.common.net" />
         <module name="hy.common.xcql" />
         <module name="hy.common.tpool" />
-        <module name="hy.common.xjava" />
         <module name="hy.common.base" />
+        <module name="hy.common.ldap" />
+        <module name="hy.common.solr" />
+        <module name="hy.xflow.engine-client" />
+        <module name="hy.xflow.engine" />
+        <module name="hy.common.xjava" />
+        <module name="hy.common.redis" />
+        <module name="hy.common.mail" />
+        <module name="hy.common.report" />
+        <module name="hy.common.zxing" />
+        <module name="hy.common.ui" />
       </profile>
     </annotationProcessing>
   </component>

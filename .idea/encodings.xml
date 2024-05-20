@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../XFlowEngine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../XFlowEngine/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../XFlowEngineClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../XFlowEngineClient/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.berkeley/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.berkeley/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.db/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.ldap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.ldap/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.license/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.license/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.mail/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.net/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.net/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.report/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.report/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.solr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.solr/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.tpool/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.tpool/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.ui/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.ui/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.xcql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.xcql/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.xjava/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.xjava/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.zxing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.zxing/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

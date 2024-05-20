@@ -13,6 +13,16 @@
         <option value="$PROJECT_DIR$/../hy.common.xcql/pom.xml" />
         <option value="$PROJECT_DIR$/../hy.common.xjava/pom.xml" />
         <option value="$PROJECT_DIR$/../hy.common.license/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.redis/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.report/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.mail/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.berkeley/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.solr/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.ui/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.zxing/pom.xml" />
+        <option value="$PROJECT_DIR$/../XFlowEngineClient/pom.xml" />
+        <option value="$PROJECT_DIR$/../XFlowEngine/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.ldap/pom.xml" />
       </list>
     </option>
   </component>

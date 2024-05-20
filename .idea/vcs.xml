@@ -2,13 +2,23 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../XFlowEngine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../XFlowEngineClient" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.berkeley" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.db" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.file" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.ldap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.license" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.mail" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.redis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.report" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.solr" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.tpool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.ui" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.xcql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.xjava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.zxing" vcs="Git" />
   </component>
 </project>
