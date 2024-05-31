@@ -19,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/../hy.common.license/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.mail/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.mail/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.mqtt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hy.common.mqtt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.net/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.net/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../hy.common.redis/src/main/java" charset="UTF-8" />

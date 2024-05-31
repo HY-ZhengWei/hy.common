@@ -11,6 +11,7 @@
     <mapping directory="$PROJECT_DIR$/../hy.common.ldap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.license" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.mail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hy.common.mqtt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.net" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.redis" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hy.common.report" vcs="Git" />

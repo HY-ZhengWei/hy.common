@@ -15,6 +15,7 @@
         <module name="hy.common.tpool" />
         <module name="hy.common.base" />
         <module name="hy.common.ldap" />
+        <module name="hy.common.mqtt" />
         <module name="hy.common.solr" />
         <module name="hy.xflow.engine-client" />
         <module name="hy.xflow.engine" />
