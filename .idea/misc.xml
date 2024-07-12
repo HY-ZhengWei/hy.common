@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/../XFlowEngine/pom.xml" />
         <option value="$PROJECT_DIR$/../hy.common.ldap/pom.xml" />
         <option value="$PROJECT_DIR$/../hy.common.mqtt/pom.xml" />
+        <option value="$PROJECT_DIR$/../hy.common.pdf/pom.xml" />
       </list>
     </option>
   </component>

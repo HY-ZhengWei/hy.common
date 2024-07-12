@@ -24,6 +24,7 @@
         <module name="hy.common.mail" />
         <module name="hy.common.report" />
         <module name="hy.common.zxing" />
+        <module name="hy.common.pdf" />
         <module name="hy.common.ui" />
       </profile>
     </annotationProcessing>
