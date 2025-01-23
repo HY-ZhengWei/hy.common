@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.2.9</version>
+    <version>3.3.0</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -233,6 +233,12 @@
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.mqtt</artifactId>
             <version>1.0.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>cn.openapis</groupId>
+            <artifactId>hy.common.modbus</artifactId>
+            <version>1.0.0</version>
         </dependency>
         
         <dependency>
