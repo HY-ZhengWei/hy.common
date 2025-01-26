@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.3.0</version>
+    <version>3.3.1</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -223,8 +223,14 @@
         
         <dependency>
             <groupId>org</groupId>
+            <artifactId>hy.common.hart</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org</groupId>
             <artifactId>hy.common.modbus</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
 
         <dependency>
