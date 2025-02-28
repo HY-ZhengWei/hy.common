@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.3.6</version>
+    <version>3.3.7</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.base</artifactId>
-            <version>1.0.188</version>
+            <version>1.0.193</version>
         </dependency>
 
         <dependency>
@@ -111,7 +111,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.xjava</artifactId>
-            <version>4.5.7</version>
+            <version>4.5.8</version>
         </dependency>
 
         <dependency>
@@ -213,6 +213,12 @@
                     <artifactId>slf4j-api</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>hy.common.callflow</artifactId>
+            <version>1.0.0</version>
         </dependency>
         
         <dependency>
