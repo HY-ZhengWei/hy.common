@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.3.7</version>
+    <version>3.3.8</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -53,7 +53,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.base</artifactId>
-            <version>1.0.193</version>
+            <version>1.0.194</version>
         </dependency>
 
         <dependency>
@@ -232,7 +232,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.callflow</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
         
         <dependency>
