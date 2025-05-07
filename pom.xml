@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.5.4</version>
+    <version>3.5.5</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -231,20 +231,20 @@
         
         <dependency>
             <groupId>cn.openapis</groupId>
+            <artifactId>hy.common.mqtt</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>cn.openapis</groupId>
             <artifactId>hy.common.callflow</artifactId>
-            <version>1.1.6</version>
+            <version>1.1.7</version>
         </dependency>
         
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.plc</artifactId>
             <version>1.0.5</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>cn.openapis</groupId>
-            <artifactId>hy.common.mqtt</artifactId>
-            <version>1.0.2</version>
         </dependency>
         
         <dependency>
