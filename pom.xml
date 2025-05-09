@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.5.8</version>
+    <version>3.5.9</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -53,7 +53,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.base</artifactId>
-            <version>1.0.195</version>
+            <version>1.0.196</version>
         </dependency>
 
         <dependency>
