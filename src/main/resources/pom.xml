@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.6.5</version>
+    <version>3.6.6</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.base</artifactId>
-            <version>1.0.196</version>
+            <version>1.0.197</version>
         </dependency>
 
         <dependency>
@@ -224,7 +224,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.callflow</artifactId>
-            <version>1.2.5</version>
+            <version>1.2.6</version>
         </dependency>
         
         <dependency>
