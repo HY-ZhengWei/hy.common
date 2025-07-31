@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>3.7.3</version>
+    <version>3.7.4</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -238,13 +238,13 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.callflow</artifactId>
-            <version>1.2.8</version>
+            <version>1.3.0</version>
         </dependency>
         
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.plc</artifactId>
-            <version>1.0.6</version>
+            <version>1.0.7</version>
         </dependency>
         
         <dependency>
@@ -256,7 +256,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.modbus</artifactId>
-            <version>1.0.4</version>
+            <version>1.0.5</version>
         </dependency>
         
         <dependency>
