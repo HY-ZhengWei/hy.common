@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>4.3.0</version>
+    <version>4.3.1</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -106,6 +106,16 @@
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.xcql</artifactId>
             <version>1.1.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-handler</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.projectreactor</groupId>
+                    <artifactId>reactor-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -181,6 +191,10 @@
                 <exclusion>
                     <groupId>commons-codec</groupId>
                     <artifactId>commons-codec</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.commons</groupId>
+                    <artifactId>commons-pool2</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -295,12 +309,18 @@
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.callflow</artifactId>
             <version>1.7.7</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.plc</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.5</version>
             <exclusions>
                 <exclusion>
                     <groupId>io.netty</groupId>
@@ -321,6 +341,10 @@
                 <exclusion>
                     <groupId>io.netty</groupId>
                     <artifactId>netty-transport</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
