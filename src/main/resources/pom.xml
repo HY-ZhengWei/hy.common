@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>4.3.3</version>
+    <version>4.3.4</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.base</artifactId>
-            <version>1.0.204</version>
+            <version>1.0.205</version>
         </dependency>
 
         <dependency>
