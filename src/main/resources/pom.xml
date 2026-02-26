@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>4.3.6</version>
+    <version>4.3.7</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -91,7 +91,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.xcql</artifactId>
-            <version>1.1.6</version>
+            <version>1.1.7</version>
             <exclusions>
                 <exclusion>
                     <groupId>io.netty</groupId>
@@ -113,7 +113,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.net</artifactId>
-            <version>3.0.8</version>
+            <version>3.1.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>io.netty</groupId>
@@ -153,13 +153,13 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.license</artifactId>
-            <version>1.2.2</version>
+            <version>1.2.3</version>
         </dependency>
 
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.xjava</artifactId>
-            <version>4.7.3</version>
+            <version>4.7.4</version>
         </dependency>
 
         <dependency>
