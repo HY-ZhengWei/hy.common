@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>4.3.7</version>
+    <version>4.3.9</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -107,7 +107,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.tpool</artifactId>
-            <version>1.4.1</version>
+            <version>1.4.2</version>
         </dependency>
 
         <dependency>
@@ -159,7 +159,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.xjava</artifactId>
-            <version>4.7.4</version>
+            <version>4.7.5</version>
         </dependency>
 
         <dependency>

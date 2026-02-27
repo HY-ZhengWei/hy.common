@@ -1,5 +1,8 @@
 $pomPath = "pom.xml"
-$targetDir = ".."                            # 要替换的目标目录
+$targetDirs = @(
+    "D:\WorkSpace\hy.microservice\",
+    "D:\WorkSpace_LPS_MS\"
+)                                            # 要替换的目标目录
 $targetArtifactId = "hy.common"              # 要匹配的artifactId
 $currentDir = $PSScriptRoot                  # 当前目录
 $currentDirPrefix = "$currentDir\"           # 拼接路径前缀（结尾加\，确保匹配“当前目录/子目录”的格式）
@@ -36,13 +39,16 @@ if (Test-Path $pomPath) {
 
 # ========== 批量更新目标pom.xml文件 ==========
 # 递归查找目标目录下所有pom.xml（排除源pom.xml，避免自更新）
-$targetPomFiles = Get-ChildItem -Path $targetDir -Filter "pom.xml" -Recurse | 
-    Where-Object { 
+$targetPomFiles = $targetDirs | ForEach-Object {
+    # 遍历每个目标目录，扫描其中的pom.xml
+    Get-ChildItem -Path $_ -Filter "pom*.xml" -Recurse
+} | Where-Object { 
         # 条件1：排除源pom.xml文件
         $_.FullName -ne $sourcePomPath -and 
         # 条件2：排除当前目录下的所有pom.xml
-        $_.FullName -notlike "$currentDirPrefix*"
-    }
+        $_.FullName -notlike "$currentDirPrefix*" -and 
+        $_.FullName -notlike "*\target\*"
+}
 
 if ($targetPomFiles.Count -eq 0) {
     Write-Host "not any pom.xml" -ForegroundColor Yellow
@@ -51,8 +57,6 @@ if ($targetPomFiles.Count -eq 0) {
 
 # 遍历每个目标pom.xml
 foreach ($pomFile in $targetPomFiles) {
-    Write-Host "`nFinding: $($pomFile.FullName)" -ForegroundColor Cyan
-    
     try {
         # 读取文件内容（Raw模式保留格式，避免XML解析破坏缩进）
         $content = Get-Content -Path $pomFile.FullName -Encoding UTF8 -Raw
@@ -62,6 +66,7 @@ foreach ($pomFile in $targetPomFiles) {
         $pattern = '(?s)(?<=<artifactId>' + $targetArtifactId + '</artifactId>\s*<version>)([^<]+)(?=</version>)'
 
         if ($content -match $pattern) {
+            Write-Host "`nFinding: $($pomFile.FullName)" -ForegroundColor Cyan
             $oldVersion = $matches[1]  # 提取旧版本号
             if ($oldVersion -ne $newVersion) {
                 # 直接替换匹配到的旧版本号为新版本号（无任何$分组引用）
@@ -74,7 +79,7 @@ foreach ($pomFile in $targetPomFiles) {
             }
         }
         else {
-            Write-Host "Skipped: Not find" -ForegroundColor Gray
+            # Write-Host "Skipped: Not find" -ForegroundColor Gray
         }
     }
     catch {
