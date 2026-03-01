@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>4.3.9</version>
+    <version>4.4.0</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -39,13 +39,13 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.base</artifactId>
-            <version>1.0.205</version>
+            <version>1.0.206</version>
         </dependency>
 
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.file</artifactId>
-            <version>1.5.8</version>
+            <version>1.5.9</version>
             <exclusions>
                 <exclusion>
                     <groupId>commons-codec</groupId>
@@ -90,30 +90,8 @@
         
         <dependency>
             <groupId>org</groupId>
-            <artifactId>hy.common.xcql</artifactId>
-            <version>1.1.7</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>io.netty</groupId>
-                    <artifactId>netty-handler</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>io.projectreactor</groupId>
-                    <artifactId>reactor-core</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <dependency>
-            <groupId>org</groupId>
-            <artifactId>hy.common.tpool</artifactId>
-            <version>1.4.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org</groupId>
             <artifactId>hy.common.net</artifactId>
-            <version>3.1.0</version>
+            <version>3.1.1</version>
             <exclusions>
                 <exclusion>
                     <groupId>io.netty</groupId>
@@ -149,6 +127,28 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>hy.common.tpool</artifactId>
+            <version>1.4.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>hy.common.xcql</artifactId>
+            <version>1.1.8</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>netty-handler</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.projectreactor</groupId>
+                    <artifactId>reactor-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 
         <dependency>
             <groupId>org</groupId>
@@ -159,20 +159,20 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.xjava</artifactId>
-            <version>4.7.5</version>
+            <version>4.7.6</version>
         </dependency>
 
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.berkeley</artifactId>
-            <version>1.0.9</version>
+            <version>1.1.0</version>
             <optional>true</optional>
         </dependency>
 
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.ldap</artifactId>
-            <version>1.1.2</version>
+            <version>1.1.3</version>
             <exclusions>
                 <exclusion>
                     <groupId>commons-codec</groupId>
@@ -338,7 +338,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.hart</artifactId>
-            <version>1.1.0</version>
+            <version>1.1.2</version>
         </dependency>
         
         <dependency>
