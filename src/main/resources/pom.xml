@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>4.4.2</version>
+    <version>4.4.3</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -153,7 +153,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.license</artifactId>
-            <version>1.2.5</version>
+            <version>1.2.6</version>
         </dependency>
 
         <dependency>
