@@ -6,9 +6,8 @@ Sonatype Central 包发布及状态轮询脚本
 #>
 
 # ====================== 配置项（请根据实际情况修改） ======================
-$sonatypeUsername = "GEL7cU"                                 # 用户名
-$sonatypeApiToken = "3PlnBdLszRsqGvcgzB8w2XXhJopybJeoU"      # API Token
-$packageFilePath = "C:\path\to\your\package.zip"             # 待发布包的本地路径
+$sonatypeUsername = "ZhengWei"                               # 用户名
+$sonatypeApiToken = "1234567890"                             # API Token
 $pollingIntervalSeconds = 60                                 # 状态查询间隔（秒）
 $maxPollingTimes = 100                                       # 最大轮询次数（防止无限循环）
 # ==========================================================================
