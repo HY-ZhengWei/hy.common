@@ -6,7 +6,7 @@
 
     <groupId>cn.openapis</groupId>
     <artifactId>hy.common</artifactId>
-    <version>4.6.3</version>
+    <version>4.6.4</version>
     <packaging>pom</packaging>
 
     <name>cn.openapis.hy.common</name>
@@ -173,7 +173,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.xjava</artifactId>
-            <version>4.8.5</version>
+            <version>4.8.6</version>
         </dependency>
 
         <dependency>
@@ -308,7 +308,7 @@
         <dependency>
             <groupId>cn.openapis</groupId>
             <artifactId>hy.common.callflow</artifactId>
-            <version>1.9.2</version>
+            <version>1.9.3</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
