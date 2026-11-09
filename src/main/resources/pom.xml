@@ -6,7 +6,7 @@
 
     <groupId>org</groupId>
     <artifactId>hy.common</artifactId>
-    <version>5.1.1</version>
+    <version>5.1.2</version>
     <packaging>pom</packaging>
 
     <name>org.hy.common</name>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.base</artifactId>
-            <version>1.0.215</version>
+            <version>1.0.217</version>
         </dependency>
 
         <dependency>
@@ -159,7 +159,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.xjava</artifactId>
-            <version>5.0.6</version>
+            <version>5.0.7</version>
         </dependency>
 
         <dependency>
@@ -194,7 +194,7 @@
         <dependency>
             <groupId>org</groupId>
             <artifactId>hy.common.redis</artifactId>
-            <version>1.2.0</version>
+            <version>1.2.1</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.commons</groupId>

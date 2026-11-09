@@ -1,3 +1,9 @@
+param(
+    [string]$mode = ""   # 当 -mode org 时，只处理路径包含resources目录下的pom.xml
+)
+
+
+
 $pomPath = "pom.xml"
 $targetDirs = @(
     "D:\WorkSpace\hy.microservice\",
@@ -47,7 +53,8 @@ $targetPomFiles = $targetDirs | ForEach-Object {
         $_.FullName -ne $sourcePomPath -and 
         # 条件2：排除当前目录下的所有pom.xml
         $_.FullName -notlike "$currentDirPrefix*" -and 
-        $_.FullName -notlike "*\target\*"
+        $_.FullName -notlike "*\target\*"-and
+        ( $mode -ne "org" -or $_.FullName.Contains("WorkSpace_LPS_MS") )
 }
 
 if ($targetPomFiles.Count -eq 0) {
